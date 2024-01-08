@@ -9,7 +9,7 @@ pipeline {
         }
         stage('install'){
             steps {
-                sh 'npm install'
+                sh 'cd sample-node-project & npm install'
             }
         }
         stage('start'){
