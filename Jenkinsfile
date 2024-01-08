@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('fetch code'){
             steps {
-                git branch: 'main', url: 'git@github.com:saurabh-cedcoss/sample-node-project.git'
+                git branch: 'master', url: 'https://github.com/saurabh-cedcoss/sample-node-project.git'
             }
         }
         stage('install'){
